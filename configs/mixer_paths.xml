@@ -85,7 +85,7 @@
 	<!-- fm end -->
 
 	<!-- Voip -->
-	<ctl name="SEC_MI2S_RX_Voice Mixer Voip" value="0" />
+	<ctl name="SLIM_0_RX_Voice Mixer Voip" value="0" />
 	<ctl name="Voip_Tx Mixer PRI_MI2S_TX_Voip" value="0" />
 	<ctl name="Internal BTSCO SampleRate" value="8000" />
 	<ctl name="INTERNAL_BT_SCO_RX_Voice Mixer Voip" value="0" />
@@ -259,8 +259,8 @@
 	</path>
 
 	<path name="compress-voip-call">
-		<ctl name="SEC_MI2S_RX_Voice Mixer Voip" value="1" />
-		<ctl name="Voip_Tx Mixer PRI_MI2S_TX_Voip" value="1" />
+		<ctl name="SLIM_0_RX_Voice Mixer Voip" value="1" />
+		<ctl name="Voip_Tx Mixer SLIM_0_TX_Voip" value="1" />
 	</path>
 
 	<path name="compress-voip-call bt-sco">
@@ -302,8 +302,8 @@
 		<ctl name="SLIM_0_RX Channels" value="Two" />
 		<ctl name="SLIM RX1 MUX" value="AIF1_PB" />
 		<ctl name="SLIM RX2 MUX" value="AIF1_PB" />
-		<ctl name="RX2 MIX1 INP1" value="RX2" />
-		<ctl name="RX3 MIX1 INP1" value="RX1" />
+		<ctl name="RX2 MIX1 INP1" value="RX1" />
+		<ctl name="RX3 MIX1 INP1" value="RX2" />
 		<ctl name="RDAC3 MUX" value="DEM1" />
 		<ctl name="RDAC4 MUX" value="DEM2" />
 		<ctl name="RDAC5 MUX" value="DEM4" />
@@ -319,8 +319,8 @@
 		<ctl name="SLIM_0_RX Channels" value="Two" />
 		<ctl name="SLIM RX1 MUX" value="AIF1_PB" />
 		<ctl name="SLIM RX2 MUX" value="AIF1_PB" />
-		<ctl name="RX2 MIX1 INP1" value="RX1" />
-		<ctl name="RX3 MIX1 INP1" value="RX2" />
+		<ctl name="RX2 MIX1 INP1" value="RX2" />
+		<ctl name="RX3 MIX1 INP1" value="RX1" />
 		<ctl name="RDAC3 MUX" value="DEM1" />
 		<ctl name="RDAC4 MUX" value="DEM2" />
 		<ctl name="RDAC5 MUX" value="DEM4" />
