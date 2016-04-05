@@ -23,6 +23,11 @@
  "repository": "CyanogenMod/android_external_stlport",
  "target_path": "external/stlport",
  "branch": "cm-13.0"
+ },
+ {
+ "repository":  "TeamOrion/device_qcom_common",
+ "target_path": "device/qcom/common",
+ "branch":      "6.0.1"
  }
 ]
 
